@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MealFinder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="mealfinder.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Find Your Tasty Meal</h1>
+        <form action="" class="my-form" id="submit">
+            <input type="text" id="search" placeholder="find your meal here?">
+            <select name="Select category" id="select">
+                <option value="--select category--">select category</option>
+                <option value="Indian">Indian</option>
+                <option value="Chinese">Chinese</option>
+                <option value="French">French</option>
+                <option value="japanese">japanese</option>
+                <option value="Moroccan">Moroccan</option>
+            </select>
+            <button type="submit" id="btn"><i class="fas fa-search"></i></button>
+        </form>
+        <div class="meal-heading" id="meal-heading"></div>
+        <div id="my-meal"></div>
+    </div>
+
+    <script src="mealfinder.js"></script>
+</body>
+
+</html>
